@@ -46,28 +46,28 @@ function HowItWorks () {
         </div>
 
         <div className="col-span-3 shadow-2xl bg-white ">
-          <div className=" px-12 py-6 ">
-            <p className="text-center text-29xl font-medium text-transparent bg-clip-text bg-gradient-to-b from-[#F24F9D] to-[#5F4AFF]">
+          <div className=" px-8 xl:px-12 py-6 ">
+            <p className="text-center text-11xl md:text-29xl lg:text-30px xl:text-29xl font-medium text-transparent bg-clip-text bg-gradient-to-b from-[#F24F9D] to-[#5F4AFF]">
               How It Works!
             </p>
             <div className="mt-4">
               {steps.map(({ description, title, id, titleIcon }) => (
-                <div key={id} className="grid grid-cols-6 gap-4 mt-6">
-                  <div className="col-span-1 flex items-center">
-                    <div className="rounded-full border border-[#755BDF] w-20 h-[77px]">
-                      <p className="text-[54px] text-center text-transparent bg-clip-text bg-gradient-to-b from-[#F24F9D] to-[#5F4AFF]">
+                <div key={id} className="md:grid md:grid-cols-6 gap-4 mt-8 md:mt-6">
+                  <div className="col-span-1 flex items-center justify-center mb-2 md:mb-0">
+                    <div className="rounded-full border border-[#755BDF] w-12 lg:w-[66px] xl:w-20 xl:h-[77px]">
+                      <p className="text-11xl lg:text-[44px] xl:text-[54px] text-center text-transparent bg-clip-text bg-gradient-to-b from-[#F24F9D] to-[#5F4AFF]">
                         {id}
                       </p>
                     </div>
                   </div>
                   <div className="col-span-5">
-                    <div className="flex items-center">
-                      <p className="text-5xl font-normal text-transparent bg-clip-text bg-gradient-to-b from-[#F24F9D] to-[#5F4AFF]">
+                    <div className="flex items-center justify-center md:justify-start">
+                      <p className="text-xl md:text-5xl  font-normal text-transparent bg-clip-text bg-gradient-to-b from-[#F24F9D] to-[#5F4AFF]">
                         {title}{" "}
                       </p>
                        <span>{titleIcon}</span>
                     </div>
-                    <p className="text-sm text-neutral-600-light font-roboto ">
+                    <p className="text-center md:text-left text-[12px] md:text-sm text-neutral-600-light font-roboto ">
                       {description}
                     </p>
                   </div>
