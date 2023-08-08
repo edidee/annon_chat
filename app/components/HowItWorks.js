@@ -47,7 +47,7 @@ function HowItWorks () {
 
         <div className="col-span-3 shadow-2xl bg-white ">
           <div className=" px-8 xl:px-12 py-6 ">
-            <p className="text-center text-11xl md:text-29xl lg:text-30px xl:text-29xl font-medium text-transparent bg-clip-text bg-gradient-to-b from-[#F24F9D] to-[#5F4AFF]">
+            <p className="text-center text-11xl md:text-29xl font-medium text-transparent bg-clip-text bg-gradient-to-b from-[#F24F9D] to-[#5F4AFF]">
               How It Works!
             </p>
             <div className="mt-4">
@@ -62,7 +62,7 @@ function HowItWorks () {
                   </div>
                   <div className="col-span-5">
                     <div className="flex items-center justify-center md:justify-start">
-                      <p className="text-xl md:text-5xl  font-normal text-transparent bg-clip-text bg-gradient-to-b from-[#F24F9D] to-[#5F4AFF]">
+                      <p className=" sm:text-xl md:text-5xl lg:text-[21px] xl:text-5xl font-normal text-transparent bg-clip-text bg-gradient-to-b from-[#F24F9D] to-[#5F4AFF]">
                         {title}{" "}
                       </p>
                        <span>{titleIcon}</span>
